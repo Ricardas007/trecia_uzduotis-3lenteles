@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+table {
+  text-align: center;
+  background: gold;
+  border-collapse: collapse;
+  border: 2px solid goldenrod;
+  margin: 120px auto;
+}
+
+th {
+  height: 35px;
+  width: 150px;
+  margin: 20px;
+  padding: 20px;
+  color: black;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  border: 2px solid goldenrod;
+}
+
+td {
+  height: 35px;
+  width: 150px;
+  margin: 20px;
+  padding: 20px;
+  background: blueviolet;
+  color: whitesmoke;
+  text-align: left;
+  font-size: large;
+  font-family: "Open Sans", sans-serif;
+  border: 2px solid goldenrod;
+}
+
+/* .lastname {
+  background: goldenrod;
+  font-weight: bold;
+} */
+
+/* th:nth-of-type(1) {
+  text-align: center;
+  background: gold;
+  font-weight: bold;
+  color: black;
+} */
+
+th:nth-of-type(2) {
+  background: goldenrod;
+  color: black;
+}
+
+/* th:nth-of-type(3) {
+  text-align: center;
+  background: gold;
+  font-weight: bold;
+  color: black;
+} */
